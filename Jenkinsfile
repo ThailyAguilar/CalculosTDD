@@ -1,7 +1,7 @@
 pipeline{
    agent any
    tools{
-      maven 'maven_devops'
+      maven 'devops_mavem'
    }
    triggers{
       githubPush()
